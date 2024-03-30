@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>exercice 5 Plateforme eServices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* En-tête */
+
+header {
+  background-color: #fffcfc;
+  color: #a19191;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+
+
+.connexion {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #320ecf;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.erreur {
+  color: red;
+  margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+  .connexion {
+    max-width: 100%;
+  }
+}
+    img {
+        padding :0px;
+     
+      transform: translate(0px,0px);
+    }
+   
+    .flot{
+      float :left;
+    }
+  </style>
+
+    <div class="flot">
+      <img   width="500"  src="Capture d'écran 2024-03-25 082155.png" alt="Image" >
+      
+    </div>
+    
+  
+  
+  <div class="flot">  
+  <main >
+    <header>
+    <h1>Plateforme eServices</h1>
+
+  </header>
+   
+    <section  class="connexion" >
+      
+      <form action="#">
+       
+        <label for="x"></label>
+        <input id="x" type="text" placeholder="xxxxxxxxx@etu.uae.ac.ma">
+        <label for="y"></label>
+            <input id="y" type="password" placeholder="password"><br>
+        
+       <p> <input  type="radio" >
+        <label >Se rappeler de moi</label><br></p><br>
+        <button type="submit">Se connecter</button><br>
+      </form>
+      
+      
+      <p class="erreur">Login ou mot de passe invalides</p><br><hr>
+      <li><a href="Mot de passe oublié ?" ><i class="fas fa-globe"></i> Mot de passe oublié ?</a></li><br>
+    <li><a href="Question ?" ><i class="fas fa-globe"></i> Question ?</a></li><br><br>
+    <p>Copyright © 2020 - tous droits réservés</p>
+    </section> 
+   
+ </main>
+ </div>
+</body>
+</html>
